@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+    background-color: #89a17d69;
+}
+header {
+    text-align: center;
+    margin: 10px;
+}
+header h1 {
+    background-color: rgba(153, 182, 175, 0.753);
+    margin: 0px;
+}
+section {
+    background-color: rgba(255, 228, 196, 0.473);
+    margin: 10px;
+}
+section h2 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 50%;
+    margin: 10px;
+    position: relative;
+}
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(238, 23, 23);
+}
+caption {
+    font-size: 1.2em;
+    background-color: rgba(31, 228, 235, 0.671);
+    font-weight: bold;
+}
+span {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.preço {
+    text-align: right;
+}
+tbody > tr:nth-child(2n) {
+    background-color: white;
+}
+thead {
+    background-color: azure;
+    border: 1px solid;
+}
+th , td {
+    border: 1px solid;
+}
+tfoot {
+    background-color: azure;
+}

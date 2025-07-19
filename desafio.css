@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(196, 243, 255);
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+    border: 2px solid;
+    text-align: center;
+    margin: 20px;
+}
+tr, th, td {
+    border: 2px solid;
+}
+.tabela2 {
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.tabela3 {
+    width: 70%;
+    height: 300px;
+}
+.tabela4 {
+    width: 70%;
+    height: 300px;
+}
+.media1 {
+    background-color: azure;
+}
+span {
+    font-weight: bold;
+}
+div.conteiner {
+    overflow-x: auto;
+}
+.cclasse {
+    background-color: #fbffff;
+}
+.cgroup {
+    background-color: bisque;
+}
+.cmedia {
+    background-color: rgba(16, 31, 240, 0.452);
+}

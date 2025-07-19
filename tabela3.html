@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 21</title>
+    <link rel="stylesheet" href="tabela3.css">
+</head>
+<body>
+    <header>
+        <h1>Efeito zebrado</h1>
+    </header>
+    <section>
+        <h2>Efeito Zebrado na tabela com HTML</h2>
+        <article>
+            <p>Para criar o efeito zebrado dentro das linhas,use a pseuto-classe <span>nth-child(2n)</span>.</p>
+            <p><span>2n</span>-indica que sera marcada 2 em 2 linhas;também pode ser de 3n ou 4n.</p>
+        </article>
+    </section>
+    <table>
+        <caption>Produtos alimentares</caption>
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th>Preços (MT)</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Farinnha de Milho</td>
+                <td class="preço">1200</td>
+            </tr>
+            <tr>
+                <td>Açucar</td>
+                <td class="preço">80</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td class="preço">1100</td>
+            </tr>
+            <tr>
+                <td>Oléo de cozinha</td>
+                <td class="preço">500</td>
+            </tr>
+            <tr>
+                <td>1kg de peixe</td>
+                <td class="preço">120</td>
+            </tr>
+            <tr>
+                <td>1kg de carne</td>
+                <td class="preço">170</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="preço">3170</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <section>
+        <h2>Cabeçalho fixo em tabelas grandes</h2>
+        <article>
+            <p>Use a tag <span>position:sticky; top:0; e configurar o background-color;</span><br>Note que no table em css tem que conter <span>
+                position:relative;
+            </span></p>
+        </article>
+    </section>
+</body>
+</html>

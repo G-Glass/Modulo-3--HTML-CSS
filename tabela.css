@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+    /*background-image: url("wallpaper002.jpg");
+    background-position: left ,center;
+    background-attachment: fixed;*/
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+*/*{
+    margin: 0px;
+    padding: 0px;
+}*/
+header {
+    background-color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+    border: 2px solid ;
+    padding: 0px;
+    margin: 10px;
+}
+#principal {
+   margin: 10px;
+   padding: 10px;
+   margin-top: 20px;
+}
+#principal>table {
+    margin: 0px;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 95vw;
+    border-collapse: collapse;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+}
+#principal td {
+    border: 2px solid;
+    margin: 10px;
+    padding: 5px;
+}
+.tr1{
+    border-radius: 20px;
+    background-color: gold;
+    color: black;
+}
+.tr2 {
+    background-color: black;
+    border-collapse: separate;
+}
+.tr3 {
+    background-color: rgba(0, 0, 255, 0.986);
+}
+.tr4 {
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.section2{
+    background-color: rgba(237, 239, 245, 0.952);
+    margin-top: 150px;
+    color: black;
+}
+.section2>h2 {
+    background-color: rgba(68, 49, 49, 0.753);
+    text-align: center;
+    color: white;
+}
+.section2 > table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0px;
+    position: absolute;
+    transform: translate(-50% -50%);
+    width: 95%;
+    height: 40%;
+    left: 2.5%;
+    background-color: rgba(109, 221, 193, 0.863);
+}
+.section2>table tr {
+    background-color: rgb(17, 194, 194);
+}
+.section2>table td {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+}
+#numero {
+   /* position: absolute;
+    transform: translate(-50% -50%);
+    right: 10%;
+    bottom: 54%;*/
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
